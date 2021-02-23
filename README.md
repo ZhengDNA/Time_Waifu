@@ -7,3 +7,7 @@
 Amatsukaze! Best waifu!
 
 按 <kbd>F8</kbd> 切换窗口隐藏/显示
+
+台词文件要用GBK编码的文件，unicode文件会乱码
+
+可以更换同名的立绘文件、台词文件、语音文件来换不同的老婆
