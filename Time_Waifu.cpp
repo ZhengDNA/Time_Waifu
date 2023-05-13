@@ -44,7 +44,7 @@ void displayWords(char h_chara, char h1, char h2)
 	FILE* fp;
 	fopen_s(&fp, fileName.c_str(), "r");
 
-	char words[150] = {0};
+	char words[200] = {0};     //有些角色的台词很长，可能会超过预设的字符数组长度
 	int i;
 	char ch;
 	for (i = 0, ch = fgetc(fp); ch != EOF; i++, ch = fgetc(fp))
